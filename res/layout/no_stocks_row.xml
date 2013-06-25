@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="19.0dip" android:textStyle="bold" android:textColor="#ff294375" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Welcome to Market Millionaire" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff505050" android:gravity="left" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Trade stocks, mutual funds, and other securities to make your way to the top.  Compete with players around the world to find the next hot stock and become a Market Millionaire!" android:lineSpacingMultiplier="1.4" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff242424" android:gravity="left" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Click 'Add More' below to get started!" />
+</LinearLayout>

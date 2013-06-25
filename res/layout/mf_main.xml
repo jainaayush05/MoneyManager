@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" >
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/ttv11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30.0dip"
+                android:layout_marginTop="55.0dip"
+                android:text="Mutual Fund"
+                android:textSize="20dp" 
+                android:textStyle="bold"
+                android:textColor="#ff729ee7"/>
+
+            <LinearLayout
+                android:id="@+id/nav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/navee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10.0dip"
+                    android:layout_marginTop="15.0dip"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="NAV"
+                    android:textColor="#ff729ee7"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            
+            <TextView
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:text="Returns"
+                android:textSize="18sp" 
+                android:textStyle="bold"
+                android:textColor="#ff729ee7"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:layout_marginBottom="3dip" android:orientation="horizontal" >
+
+          	<TextView
+          	    android:layout_width="wrap_content"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="7dip"
+          	    android:layout_weight="1"
+          	    android:text="1 Week"
+          	    android:textColor="#006200"
+          	    android:textSize="18sp" />
+                
+                <TextView
+                    android:id="@+id/ttv12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dip"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                
+          	</LinearLayout>
+          	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:layout_marginBottom="3dip" android:orientation="horizontal" >
+
+          	<TextView
+          	    android:layout_width="wrap_content"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="7dip"
+          	    android:layout_weight="1"
+          	    android:text="1 month"
+          	    android:textColor="#006200"
+          	    android:textSize="18sp" />
+                
+                <TextView
+                    android:id="@+id/ttv13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:textSize="18sp" 
+                    android:layout_marginRight="7dip"/>
+                
+          	</LinearLayout>
+          	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:layout_marginBottom="3dip" android:orientation="horizontal" >
+
+          	<TextView
+          	    android:layout_width="wrap_content"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="7dip"
+          	    android:layout_weight="1"
+          	    android:text="3 months"
+          	    android:textColor="#006200"
+          	    android:textSize="18sp" />
+                
+                <TextView
+                    android:id="@+id/ttv21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dip"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                
+          	</LinearLayout>
+          	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:layout_marginBottom="3dip" android:orientation="horizontal" >
+
+          	<TextView
+          	    android:layout_width="wrap_content"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="7dip"
+          	    android:layout_weight="1"
+          	    android:text="6 months"
+          	    android:textColor="#006200"
+          	    android:textSize="18sp" />
+                
+                <TextView
+                    android:id="@+id/ttv22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dip"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                
+          	</LinearLayout>
+          	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:layout_marginBottom="3dip" android:orientation="horizontal" >
+
+          	<TextView
+          	    android:layout_width="wrap_content"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="7dip"
+          	    android:layout_weight="1"
+          	    android:text="1 year"
+          	    android:textColor="#006200"
+          	    android:textSize="18sp" />
+                
+                <TextView
+                    android:id="@+id/ttv23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dip"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                
+          	</LinearLayout>
+          	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:layout_marginBottom="3dip" android:orientation="horizontal" >
+
+          	<TextView
+          	    android:layout_width="wrap_content"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="7dip"
+          	    android:layout_weight="1"
+          	    android:text="2 year"
+          	    android:textColor="#006200"
+          	    android:textSize="18sp" />
+                
+                <TextView
+                    android:id="@+id/ttv31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dip"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                
+          	</LinearLayout>
+          	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:layout_marginBottom="3dip" android:orientation="horizontal" >
+
+          	<TextView
+          	    android:layout_width="wrap_content"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="7dip"
+          	    android:layout_weight="1"
+          	    android:text="3 years"
+          	    android:textColor="#006200"
+          	    android:textSize="18sp" />
+                
+                <TextView
+                    android:id="@+id/ttv32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dip"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                
+          	</LinearLayout>
+          	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dip" android:layout_marginBottom="3dip" android:orientation="horizontal" >
+
+          	<TextView
+          	    android:layout_width="wrap_content"
+          	    android:layout_height="wrap_content"
+          	    android:layout_marginLeft="7dip"
+          	    android:layout_weight="1"
+          	    android:text="5 years"
+          	    android:textColor="#006200"
+          	    android:textSize="18sp" />
+                
+                <TextView
+                    android:id="@+id/ttv33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dip"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+                
+          	</LinearLayout>
+          	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <Button android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff"  android:background="@drawable/green_button" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="BUY" android:layout_weight="1.0" />
+                    <Button android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:background="@drawable/red_button" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="SELL" android:layout_weight="1.0" />
+                    <Button android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:background="@drawable/blue_button" android:layout_width="40.0dip" android:layout_height="wrap_content" android:text="NEWS" android:layout_weight="1.0" />
+                </LinearLayout>
+            
+       </LinearLayout>
+       
+  
+  </ScrollView>
+    
+
+</LinearLayout>

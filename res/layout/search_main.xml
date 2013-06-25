@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/header_stripe" android:paddingLeft="10.0dip" android:paddingTop="7.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip">
+    <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/search" />
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ticker or Company Name"
+         >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+    </LinearLayout>
+    <ListView android:id="@id/android:list"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff"
+	android:divider="#ffcccccc" android:dividerHeight="1.0px"
+	android:layout_weight="2"
+	android:drawSelectorOnTop="false">
+	</ListView>
+</LinearLayout>

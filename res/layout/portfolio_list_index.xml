@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip">
+                <Button android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/debt_portfolio" android:background="@drawable/red_button" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip"  android:text="DEBT" />
+                <Button android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/equity_portfolio" android:background="@drawable/blue_button" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="EQUITY" />
+                <Button android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/index_portfolio" android:background="@drawable/green_button" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="INDEX" />
+            </LinearLayout>  
+<ListView android:id="@id/android:list"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff"
+	android:divider="#ffcccccc" android:dividerHeight="1.0px"
+	android:layout_weight="2"
+	android:drawSelectorOnTop="false">
+	</ListView>
+<!-- <TextView  android:id="@id/android:empty"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:background="#FFff00"
+    android:text="No data"
+    /> -->
+</LinearLayout>
