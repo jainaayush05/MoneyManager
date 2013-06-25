@@ -43,7 +43,8 @@ This application can serve as an excellent tool for educating potential investor
 2) Introduction of Algorithmic trading
 3) Making this app cross platform, i.e for all platforms like ios, windows8, BB10 etc.
 
-Screenshots
+###Screenshots###
+![Alt text](http://static.adzerk.net/Advertisers/d18eea9d28f3490b8dcbfa9e38f8336e.jpg "Optional title")
 
  
 
